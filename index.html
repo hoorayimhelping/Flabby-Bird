@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Games!</title>
+
+    <link rel="stylesheet" href="css/game.css">
+
+    <script type="text/javascript" src="js/mousetrap.js"></script>
+    <script type="text/javascript" src="js/class.js"></script>
+    <script type="text/javascript" src="js/moveable_entity.js"></script>
+    <script type="text/javascript" src="js/game_controller.js"></script>
+</head>
+<body>
+    <canvas id="canvas" width="600" height="400">
+        bro, do you even modern browser?
+    </canvas>
+
+    <script type="text/javascript">
+        new GameController(document.getElementById('canvas'));
+    </script>
+    <div id="score" style="font-size: 36px; font-family: 'Comic Sans MS'; color: blue;">0</div>
+</body>
+</html>
